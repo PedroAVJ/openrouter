@@ -1,0 +1,41 @@
+{
+  "name": "openrouter",
+  "version": "0.1.4",
+  "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/openrouter",
+  "repository": "https://github.com/PedroAVJ/openrouter",
+  "license": "MIT",
+  "keywords": [
+    "openrouter",
+    "video-generation",
+    "text-to-video",
+    "image-to-video",
+    "multimodal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenRouter",
+    "shortDescription": "Generate videos through the multi-model API",
+    "longDescription": "Use OpenRouter as one application-level integration across its model catalogue and asynchronous video API. Discover current models and pricing, prepare text-to-video or reference-guided requests, guard credit-spending submissions, poll jobs, download outputs, and preserve enough provenance to compare generations honestly.",
+    "developerName": "PedroAVJ",
+    "category": "AI",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#02090D",
+    "composerIcon": "./assets/openrouter-icon.svg",
+    "logo": "./assets/openrouter-icon.svg",
+    "screenshots": [],
+    "defaultPrompt": [
+      "Show me the current OpenRouter video models",
+      "Prepare a guarded image-to-video request",
+      "Generate and download this approved video"
+    ]
+  }
+}
